@@ -13,36 +13,33 @@ export default function Testimonials() {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+              I was blown away by the excellent software development service provided by this team. They went above and beyond to ensure that our project was completed <Mark>on time</Mark> and to our <Mark>exact specifications.</Mark> <br/>Highly recommended!
             </p>
 
             <Avatar
               image={userOneImg}
               name="Sarah Steiner"
-              title="VP Sales at Google"
+              title="CEO at Digi International"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+              I can confidently say this software development service is perfect. The <Mark>quality</Mark> of their work exceeded my expectations and they remained professional throughout the project. I appreciate their dedication to delivering exceptional outcomes.
             </p>
 
             <Avatar
               image={userTwoImg}
               name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              title="Lead marketer at ArcBest"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I've seen. I
-              would use this for anything.
+              Working with this team was an absolute pleasure. They are a group of smart, talented developers who understand the unique needs of their customers. I would certainly recommend their software development service to anyone looking for a <Mark>top-notch</Mark> solution.
             </p>
 
             <Avatar
