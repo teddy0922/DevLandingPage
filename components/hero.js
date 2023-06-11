@@ -49,7 +49,7 @@ export default function Hero() {
             <Image
               src={heroImg}
               width="616"
-              height="617"
+              height="507"
               alt="Hero Illustration"
               layout="intrinsic"
               loading="eager"
