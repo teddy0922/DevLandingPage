@@ -11,42 +11,42 @@ export default function Testimonials() {
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              I was blown away by the excellent software development service provided by this team. They went above and beyond to ensure that our project was completed <Mark>on time</Mark> and to our <Mark>exact specifications.</Mark> <br/>Highly recommended!
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-7 md:p-14 rounded-2xl dark:bg-trueGray-800">
+            <p className="text-md md:text-2xl leading-normal ">
+              I was blown away by the excellent software development service provided by this team. They went above and beyond to ensure that our project was completed on time and to our exact specifications. <br/>Highly recommended!
             </p>
 
-            <Avatar
-              image={userOneImg}
-              name="Sarah Steiner"
-              title="CEO at Digi International"
-            />
+            {/*<Avatar*/}
+            {/*  image={userOneImg}*/}
+            {/*  name="Sarah Steiner"*/}
+            {/*  title="CEO at Digi International"*/}
+            {/*/>*/}
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              I can confidently say this software development service is perfect. The <Mark>quality</Mark> of their work exceeded my expectations and they remained professional throughout the project. I appreciate their dedication to delivering exceptional outcomes.
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-7 md:p-14 rounded-2xl dark:bg-trueGray-800">
+            <p className="text-md md:text-2xl leading-normal ">
+              I can confidently say this software development service is perfect. The quality of their work exceeded my expectations and they remained professional throughout the project. I appreciate their dedication to delivering exceptional outcomes.
             </p>
 
-            <Avatar
-              image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at ArcBest"
-            />
+            {/*<Avatar*/}
+            {/*  image={userTwoImg}*/}
+            {/*  name="Dylan Ambrose"*/}
+            {/*  title="Lead marketer at ArcBest"*/}
+            {/*/>*/}
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Working with this team was an absolute pleasure. They are a group of smart, talented developers who understand the unique needs of their customers. I would certainly recommend their software development service to anyone looking for a <Mark>top-notch</Mark> solution.
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-7 md:p-14 rounded-2xl dark:bg-trueGray-800">
+            <p className="text-md md:text-2xl leading-normal ">
+              Working with this team was an absolute pleasure. They are a group of smart, talented developers who understand the unique needs of their customers. I would certainly recommend their software development service to anyone looking for a top-notch solution.
             </p>
 
-            <Avatar
-              image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
-            />
+            {/*<Avatar*/}
+            {/*  image={userThreeImg}*/}
+            {/*  name="Gabrielle Winn"*/}
+            {/*  title="Co-founder of Acme Inc"*/}
+            {/*/>*/}
           </div>
         </div>
       </div>

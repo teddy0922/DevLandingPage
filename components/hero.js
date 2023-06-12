@@ -5,37 +5,30 @@ import heroImg from "../public/img/hero.png";
 export default function Hero() {
   return (
     <>
-      <Container className="flex flex-wrap ">
-        <div className="flex items-center justify-center w-full lg:w-full">
-            <Image
-                src={heroImg}
-                width={0}
-                height={0}
-                alt="Hero Illustration"
-                layout="intrinsic"
-                loading="eager"
-                placeholder="blur"
-                sizes="100vw"
-                style={{
-                    width: '100%',
-                    height: 'auto',
-                }}
-            />
-          <div className=" lg:block" style={{
-              marginLeft: '-100%',
-              position: 'relative',
-              height: '100%',
-              width:'100%',
+      <Container className="flex flex-wrap w-full p-0 ">
+        <div className="flex items-center justify-center w-full lg:w-full h-[300px] md:h-[400px] lg:h-[500px]">
+            <div className="h-[300px] md:h-[400px] lg:h-[500px] w-full absolute">
+                <Image
+                    src={heroImg}
+                    alt="Hero Illustration"
+                    layout="fill"
+                    loading="eager"
+                    placeholder="blur"
+                    objectFit="cover"
+                />
+            </div>
+
+            <div className=" lg:block w-full h-[300px] md:h-[400px] lg:h-[500px] absolute" style={{
               background: 'linear-gradient(to right, rgba(23, 23, 23, 0.9), rgba(23, 23, 23, 0.6) 70%, rgba(23, 23, 23, 0.2) 100%)'
-          }}>
+            }}>
           </div>
         </div>
-        <div className="flex items-center w-full lg:w-1/2 text-white" style={{marginTop:"-40%", zIndex:"1"}}>
+        <div className="flex items-center w-full lg:w-full text-white" style={{marginTop:"-300px", zIndex:"1"}}>
           <div className="max-w-2xl mb-8">
-            <h1 className="text-3xl font-bold leading-snug tracking-tight text-white lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+            <h1 className="text-3xl font-bold leading-snug tracking-tight text-white md:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
                Our Team Makes Your Dreams to Reality
             </h1>
-            <p className="py-5 text-xl leading-normal text-gray-100 lg:text-xl xl:text-2xl dark:text-gray-300 hidden md:block">
+            <p className="py-5 text-xl leading-normal text-gray-100 lg:text-xl xl:text-2xl dark:text-gray-300 ">
               Custom software solutions for your unique needs. Transform your ideas into reality with our expert development services.
             </p>
           </div>
@@ -44,23 +37,6 @@ export default function Hero() {
       <Container>
         <div className="flex flex-col justify-center">
 
-          <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
-              <AmazonLogo />
-            </div>
-            <div className="text-gray-400 dark:text-gray-400">
-              <VerizonLogo />
-            </div>
-            <div className="text-gray-400 dark:text-gray-400">
-              <MicrosoftLogo />
-            </div>
-            <div className="pt-1 text-gray-400 dark:text-gray-400">
-              <NetflixLogo />
-            </div>
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
-              <SonyLogo />
-            </div>
-          </div>
         </div>
       </Container>
     </>
